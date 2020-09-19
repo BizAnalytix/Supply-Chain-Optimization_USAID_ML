@@ -1,6 +1,11 @@
-# USAID-Supply-Chain-Optimization
+# Supply-Chain-Optimization for Pharma Drug Distribution for USAID.gov
 
-Senior thesis project for the Computer Science major at the American University in Bulgaria:
+
+## Business Context
+
+### Business Challenges
+
+
 
 The United States Agency for International Development (USAID, usaid.gov) is an independent agency from the U.S. federal government that is 
 a leader in supporting the developing countries around the world in terms of education, economy, health, agriculture and many other fields. One of the Agency’s biggest projects is supply of medicine commodities to more than 60 countries around the globe.
@@ -12,7 +17,18 @@ since the agency published that 30-50% of medicine deliveries arrived later than
 Delayed deliveries can increase the supply chain costs for USAID as that will increase their storage needs for storing excess inventory, 
 but more importantly, can disrupt a patient’s treatment, or potentially cause a loss of life.
 
-The solution for this problem can be a machine learning model - a combination of a classifier and a regressor, that will predict if 
-a specific delivery in the supply chain of USAID is going to be delayed, and after that forecast the delay time of a potential 
-delayed delivery. This can assist USAID’s representatives around the world in planning accordingly for a particular delivery arrival 
+### Data Driven AI/ML Powered Solution 
+
+#### ML Solution Overview 
+The solution for this problem can be a machine learning model - a combination of a 
+	- classifier ML Model and 
+    - Regressor ML Model
+	
+that will predict 
+	- if a specific delivery in the supply chain of USAID is going to be delayed **(delayed/Non-delayed - BINOMIAL CLASSIFICATION)**, and 
+	- after that forecast the delay time of a potential delayed delivery (**Delay time - Regression)**. 
+	
+
+### Business Outcome Value
+This can assist USAID’s representatives around the world in planning accordingly for a particular delivery arrival 
 and make the necessary changes in order to prevent the possible side-effects.
